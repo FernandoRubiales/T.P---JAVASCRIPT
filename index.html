@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabajo Practico JS</title>
+  </head>
+  <body>
+
+    <p>Este es el primer párrafo.</p>
+    <p>Este es el segundo párrafo.</p>
+    <p>Este es el tercer párrafo.</p>
+
+    <button onclick="cambiarColorAzul()">Cambiar color a azul</button>
+
+    <h1>Formulario con alerta</h1>
+    <form>
+        <label for="txt">Ingresa un texto:</label>
+        <input type="text" id="txt">
+        <button type="button" onclick="mostrarAlerta()">Mostrar Alerta</button>
+    </form>
+  
+    <h1>Lista con elementos</h1>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <h1>Campo de texto y botones</h1>
+    <input type="text" id="campo" placeholder="Ingresa algo">
+    <button onclick="deshabilitarCampo()">Deshabilitar Campo</button>
+    <button onclick="habilitarCampo()">Habilitar Campo</button>
+
+    <h1>LocalStorage</h1>
+    <form id="formularioEmail">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" required>
+        <button type="submit">Guardar Correo</button>
+    </form>
+
+    <div id="divEmailGuardado"></div>
+    <button id="botonEliminarEmail" style="display:none;">Eliminar Correo Guardado</button>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
